@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+header{
+    background: #ccc;
+}
+
+.view{
+    position: relative;
+    width: 940px;
+    margin: 0px auto;
+}
+
+.logo{
+    display: inline-block;
+}
+
+nav ul{
+    position: absolute;
+    top: 120px;
+    right: 0px;
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+nav a{
+    text-shadow: 0 0 1px #000;
+    text-decoration: none;
+    color: #000
+}
+
+nav a:hover{
+    text-shadow: 0 0 1px #059bc0;
+    color: #059bc0;
+}
+
+/* CONTENT */
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* HOME */
+main p{
+    margin: 1em 0;
+}
+
+.banner{
+    display: block;
+    width: 940px;
+    margin: 1em auto 0 auto;
+}
+
+.title-main{
+    text-align: center;
+    margin: 2em auto;
+    font-size: 2em;
+    text-shadow: 0 0 2px #000;
+    clear: left;
+}
+
+.title-main::before{
+    content: "- ";
+}
+
+.title-main::after{
+    content: " -";
+}
+
+.principal{
+    width: 940px;
+    padding: 2em;
+    margin: 40px auto;
+    background: linear-gradient(#fff, #fefefe);
+}
+
+.utensilios{
+    width: 120px;
+    margin: 0 1em 1em 0;
+    float: left;
+}
+
+.principal em{
+    font-style: italic;
+}
+
+.principal strong{
+    font-weight: bold;
+}
+
+.mapa{
+    padding: 2em;
+    background: linear-gradient(#fefefe, #888);
+    text-align: center;
+}
+
+.conteudo-mapa{
+    width: 940px;
+    margin: 2em auto;
+}
+
+.beneficios{
+    padding: 2em;
+    background-color: #888;
+}
+
+.conteudo-beneficios{
+    width: 640px;
+    margin: 0 auto;
+}
+
+.lista-beneficios{
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
+    margin: auto 0;
+}
+
+.itens{
+    line-height: 1.5;
+}
+
+.itens:before{
+    content: "★ ";
+}
+
+.imagem-beneficios{
+    display: inline-block;
+    margin: 0 2%;
+    width: 56%;
+    opacity: 0.85;
+    box-shadow: 0 0 20px 10px #000;
+    transition: 0.5s;
+}
+
+.imagem-beneficios:hover{
+    opacity: 1;
+}
+
+.video{
+    width: 540px;
+    margin: 2em auto;
+}
+
+/* product */
+
+.product{
+    width: 940px;
+    margin: 3em auto;
+}
+
+.product-list{
+    text-align: center;
+}
+
+.product-list li{
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+    margin-left: 1.2%;
+    height: 400px;
+    border: 3px solid #000;
+    border-radius: 20px;
+    width: 29%;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.product-list li:hover{
+    border-color: #059bc0;
+    opacity: 1;
+    transform: scale(1.02);
+}
+
+.product-list h2{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+    transition: 0.5s;
+}
+
+.product-list li:hover h2{
+    font-size: 35px;
+}
+
+.product-desc{
+    font-size: 20px;
+}
+
+.product-price{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* CONTATO */
+
+form{
+    width: 540px;
+    margin: 3em auto;
+}
+
+form label, form legend{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.input-padrao, form textarea{
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+    border: 2px solid #000;
+    border-radius: 5px;
+}
+
+.input-padrao:focus, form textarea:focus{
+    outline: none;
+    border: 2px solid #059bc0;
+    color: #fff;
+}
+
+form fieldset{
+    margin: 20px 0;
+}
+
+.checkbox{
+    margin-bottom: 30px;
+}
+
+.enviar{
+    width: 30%;
+    text-align: center;
+    padding: 15px 30px;
+    background: #059bc0;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 1s;
+}
+
+.enviar:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+/* FOOTER */
+
+footer{
+    padding: 40px 0px;
+    background: url("../img/bg.jpg");
+    text-align: center;
+}
+
+footer p{
+    color: #fff;
+}
