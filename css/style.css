@@ -338,18 +338,6 @@ header{
 /* RESPONSIVO */
 
 @media screen and (min-width: 768px){
-    .conhecimento{
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-
-    .conhecimento__item{
-        width: 40%;
-    }
-}
-
-@media screen and (min-width: 1024px){
     nav{
         width: auto;
     }
@@ -363,7 +351,7 @@ header{
         align-items: center;
     }
 
-    .cabecalho__menu, .cabecalho__link, .cabecalho__social, .projetos__descricao, .projetos__previa-links{
+    .cabecalho__menu, .cabecalho__link, .cabecalho__social{
         margin: 0;
     }
 
@@ -381,9 +369,21 @@ header{
     .cabecalho__social{
         width: 11em;
     }
-
+    
     /*  */
 
+    .conhecimento{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .conhecimento__item{
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 1024px){
     main{
         width: 940px;
         margin: 0 auto;
@@ -402,6 +402,10 @@ header{
     }
 
     /*  */
+
+    .projetos__descricao, .projetos__previa-links{
+        margin: 0;
+    }
 
     .projetos__titulo-principal{
         margin-left: 0;
