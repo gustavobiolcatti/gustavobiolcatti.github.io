@@ -142,7 +142,7 @@ header{
 
 .cabecalho__social{
     display: flex;
-    width: 12em;
+    width: 14em;
     margin: 3em 0 1em;
     align-items: center;
     align-self: center;
@@ -151,6 +151,7 @@ header{
 
 .cabecalho__icone{
     width: 3rem;
+    border-radius: 5px;
 }
 
 /* MAIN */
@@ -366,9 +367,9 @@ header{
         border: none;
     }
 
-    .cabecalho__social{
+    /*.cabecalho__social{
         width: 11em;
-    }
+    }*/
     
     /*  */
 
