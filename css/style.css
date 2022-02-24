@@ -3,7 +3,7 @@
 :root{
     --fonte: "Montserrat", sans-serif;
 
-    --background-body: #030518;
+    --background-body: #000000;
     --background-header: #17384C;
     --background-titulo: #17384C;
     --background-botao: #102226;
@@ -17,7 +17,7 @@
     --borda-projetos: #fefffb;
 
     --sombra-header: #8899a6;
-    --sombra-titulo: #8899a6;
+    --sombra-titulo: #9a9a9a;
 
     --cor-titulo: #e4e6e1;
     --cor-subtitulo: #8899a6;
@@ -179,7 +179,7 @@ header{
 }
 
 .apresentacao__conteudo{
-    margin-top: 10em;
+    margin-top: 6em;
     text-align: center;
 }
 
