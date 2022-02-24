@@ -404,6 +404,10 @@ header{
 
     /*  */
 
+    .projetos__titulo-principal{
+        margin-left: 0;
+    }
+
     .projetos__separacao{
         flex-direction: row;
         justify-content: space-between;
