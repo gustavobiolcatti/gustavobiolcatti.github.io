@@ -5,6 +5,7 @@
 
     --background-body: #000000;
     --background-header: #333333;
+    --background-icone: #fefffb;
     --background-conhecimento: #333333;
     --background-titulo: #000000;
     --background-botao: #000000;
@@ -26,7 +27,9 @@
     --cor-texto-padrao: #fefffb;
     --cor-strong: #8899a6;
     --cor-link: #fefffb;
+    --cor-link--hover: #007eff;
     --cor-link-projeto: #007eff;
+    --cor-link-projeto--hover: #fefffb;
 
     --cor-conhecimento-subtitulo: #e4e6e1;
     --cor-projeto-descricao: #fefffb;
@@ -134,7 +137,7 @@ a{
 }
 
 a:hover{
-    color: var(--cor-titulo-principal);
+    text-shadow: 2px 2px var(--cor-link--hover);
 }
 
 /* CABECALHO */
@@ -169,9 +172,26 @@ header{
     justify-content: space-between;
 }
 
+.cabecalho__social a{
+    height: 0;
+}
+
 .cabecalho__icone{
-    width: 3rem;
+    width: 30px;
+    height: 30px;
+    background-color: var(--background-icone);
     border-radius: 5px;
+    transition: 0.25s;
+}
+
+.cabecalho__icone:hover{
+    box-shadow: 2px 2px var(--cor-link--hover);
+}
+
+.cabecalho__social img{
+    width: 25px;
+    height: 25px;
+    margin: 2.5px;
 }
 
 /* MAIN */
@@ -310,6 +330,10 @@ header{
     color: var(--cor-link-projeto);
 }
 
+.projetos__previa-links a:hover{
+    text-shadow: 2px 2px var(--cor-link-projeto--hover);
+}
+
 /* RODAPÉ */
 
 .footer__lightmode{
@@ -428,12 +452,18 @@ header{
         padding-right: 0;
     }
 
-    .conhecimento__conteudo{
-        width: 940px;
-    }
+    /*  */
 
     .conhecimento{
         justify-content: space-between;
+    }
+
+    .conhecimento .conteudo--geral{
+        justify-content: space-between;
+    }
+
+    .conhecimento__conteudo{
+        width: 940px;
     }
 
     .conhecimento__item{
