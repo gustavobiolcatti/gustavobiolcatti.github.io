@@ -19,7 +19,6 @@
     --borda-link: #fefffb;
     --borda-projetos: #fefffb;
 
-    --sombra-header: #8899a6;
     --sombra-titulo: #007eff;
 
     --cor-titulo: #ffffff;
@@ -38,15 +37,13 @@
 
 .light-mode{
     --background-body: #cdcdcd;
-    --background-header: #4D4D4D;
+    --background-header: #4d4d4d;
     --background-conhecimento: #e1e1e1;
     --background-titulo: #3F403E;
     --background-botao: #102226;
 
     --borda-link: #fefffb;
     --borda-projetos: #000000;
-
-    --sombra-header: #000000;
     
     --cor-subtitulo: #3F403E;
     --cor-texto-padrao: #3F403E;
@@ -147,7 +144,6 @@ header{
     padding: 2em 0;
     font-size: 1rem;
     background: var(--background-header);
-    box-shadow: 0 0 20px var(--sombra-header);
 }
 
 .cabecalho__menu{
