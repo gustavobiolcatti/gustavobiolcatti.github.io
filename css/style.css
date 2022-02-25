@@ -15,6 +15,7 @@
     --background-degrade-2: #3F403E;
     --background-degrade-3: #e4e6e1;
 
+    --borda-foto: #007eff;
     --borda-link: #fefffb;
     --borda-projetos: #fefffb;
 
@@ -212,6 +213,7 @@ header{
     width: 200px;
     border-radius: 200px;
     align-self: center;
+    box-shadow: 0 0 1px 3px var(--borda-foto);
 }
 
 .apresentacao__conteudo{
