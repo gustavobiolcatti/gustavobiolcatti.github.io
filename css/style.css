@@ -87,7 +87,7 @@ body{
 }
 
 .titulo--principal{
-    margin-bottom: 2em;
+    margin-bottom: 1.5em;
     color: var(--cor-titulo-principal);
     font-size: 4em;
     font-weight: 400;
@@ -231,9 +231,18 @@ header{
     margin-top: 3.5em;
 }
 
-/*.apresentacao__sobre-texto{
+.apresentacao__sobre-texto{
+    margin-top: 1.5em;
+    line-height: 1.5em;
     text-align: center;
-}*/
+}
+
+.texto--citacao{
+    margin-top: 5em;
+    font-size: 1.5em;
+    font-style: italic;
+    text-align: center;
+}
 
 /* CONHECIMENTO */
 
