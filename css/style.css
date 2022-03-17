@@ -3,7 +3,7 @@
 :root{
     --fonte: "Montserrat", sans-serif;
 
-    --background-body: #000000;
+    --background: linear-gradient(236.85deg, #041832 27.26%, #3468A7 96.03%);;
     --background-header: #333333;
     --background-icone: #fefffb;
     --background-conhecimento: #333333;
@@ -36,7 +36,7 @@
 }
 
 .light-mode{
-    --background-body: #cdcdcd;
+    --background: #cdcdcd;
     --background-header: #4d4d4d;
     --background-conhecimento: #e1e1e1;
     --background-titulo: #3F403E;
@@ -56,10 +56,6 @@
 html{
     font-size: 10px;
     font-family: var(--fonte);
-}
-
-body{
-    background-color: var(--background-body);
 }
 
 .container{
@@ -197,6 +193,7 @@ header{
 
 #apresentacao{
     padding: 10em 3em;
+    background: var(--background);
     font-size: 1rem;
 }
 
@@ -276,6 +273,7 @@ header{
 
 #projetos{
     padding: 10em 0;
+    background: var(--background);
     font-size: 1rem;
 }
 
