@@ -1,0 +1,49 @@
+#apresentacao{
+    padding: 10em 3em;
+    background: var(--background);
+    font-size: 1rem;
+}
+
+#apresentacao .subtitulo{
+    display: block;
+    border: none;
+}
+
+.apresentacao__foto{
+    width: 200px;
+    border-radius: 200px;
+    align-self: center;
+    box-shadow: 0 0 1px 3px var(--borda-foto);
+}
+
+.apresentacao__conteudo{
+    margin-top: 6em;
+    text-align: center;
+}
+
+.apresentacao__nome{
+    color: var(--cor-texto-padrao);
+    font-size: 3.2em;
+    font-weight: bold;
+}
+
+.apresentacao__cargo{
+    margin-top: .5em;
+}
+
+.apresentacao__sobre-titulo{
+    margin-top: 3.5em;
+}
+
+.apresentacao__sobre-texto{
+    margin-top: 1.5em;
+    line-height: 1.5em;
+    text-align: center;
+}
+
+.texto--citacao{
+    margin-top: 5em;
+    font-size: 1.5em;
+    font-style: italic;
+    text-align: center;
+}

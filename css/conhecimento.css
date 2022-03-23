@@ -1,0 +1,25 @@
+.conhecimento{
+    padding: 10em 3em;
+    font-size: 1rem;
+    background-color: var(--background-conhecimento);
+}
+
+.conhecimento__item {
+    margin-top: 10em;
+}
+
+.conhecimento__item:first-child{
+    margin-top: 0;
+}
+
+.conhecimento__item .titulo{
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+}
+
+.conhecimento__item .subtitulo{
+    color: var(--cor-conhecimento-subtitulo);
+    margin: 2em 0 .7em;
+}

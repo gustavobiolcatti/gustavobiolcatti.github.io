@@ -1,0 +1,118 @@
+@media screen and (min-width: 768px){
+    nav{
+        width: auto;
+    }
+
+    .cabecalho{
+        max-width: 1160px;
+        padding: 0 2em;
+        margin: 0 auto;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .cabecalho__menu, .cabecalho__link, .cabecalho__social{
+        margin: 0;
+    }
+
+    .cabecalho__menu li{
+        display: inline-block;
+        width: auto;
+        margin-right: 2.5em;
+    }
+
+    .cabecalho__link{
+        padding: 0;
+        border: none;
+    }
+    
+    /*  */
+
+    .conhecimento .conteudo--geral{
+        margin: 0 auto;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: baseline;
+        justify-content: space-around;
+    }
+
+    .conhecimento__item{
+        margin-top: 0;
+        width: 40%;
+    }
+
+    .conhecimento__item:last-child{
+        margin-top: 10em;
+    }
+
+    /*  */
+
+    .projetos__previa-imagem{
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    main{
+        margin: 0 auto;
+    }
+
+    .conteudo--geral{
+        width: 940px;
+    }
+
+    #apresentacao, .conhecimento{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    /*  */
+
+    .conhecimento{
+        justify-content: space-between;
+    }
+
+    .conhecimento .conteudo--geral{
+        justify-content: space-between;
+    }
+
+    .conhecimento__conteudo{
+        width: 940px;
+    }
+
+    .conhecimento__item{
+        width: 28%;
+    }
+
+    .conhecimento__item:last-child{
+        margin-top: 0;
+    }
+
+    /*  */
+
+    .projetos__descricao, .projetos__previa-links{
+        margin: 0;
+    }
+
+    .projetos__titulo-principal{
+        margin-left: 0;
+    }
+
+    .projetos__separacao{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .projetos__conteudo{
+        width: 48%;
+    }
+
+    .projetos__conteudo .subtitulo{
+        margin-top: 9em;
+    }
+
+    .projetos__previa{
+        width: 50%;
+    }
+}
