@@ -165,27 +165,45 @@ header{
     justify-content: space-between;
 }
 
-.cabecalho__social a{
-    height: 0;
-}
-
 .cabecalho__icone{
     width: 30px;
     height: 30px;
-    background-color: var(--background-icone);
     border-radius: 5px;
     transition: 0.25s;
+}
+
+.cabecalho__icone--linkedin {
+    background: url("../img/icone/linkedin.svg");
+    background-size: 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cabecalho__icone--github {
+    background: url("../img/icone/github.svg");
+    background-size: 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cabecalho__icone--instagram {
+    background: url("../img/icone/instagram.svg");
+    background-size: 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cabecalho__icone--email {
+    background: url("../img/icone/email.svg");
+    background-size: 25px;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .cabecalho__icone:hover{
     box-shadow: 2px 2px var(--cor-link--hover);
 }
 
-.cabecalho__social img{
-    width: 25px;
-    height: 25px;
-    margin: 2.5px;
-}
 
 /* RODAPÉ */
 
