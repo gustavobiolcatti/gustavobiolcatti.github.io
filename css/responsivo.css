@@ -91,7 +91,13 @@
 
     /*  */
 
-    .projetos__descricao, .projetos__previa-links{
+    .projetos__conteudo {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .projetos__descricao{
         margin: 0;
     }
 
@@ -99,7 +105,7 @@
         margin-left: 0;
     }
 
-    .projetos__separacao{
+    .projetos__separacao .container{
         flex-direction: row;
         justify-content: space-between;
     }
@@ -109,10 +115,11 @@
     }
 
     .projetos__conteudo .subtitulo{
-        margin-top: 9em;
+        margin: 0;
     }
 
     .projetos__previa{
         width: 50%;
+        margin: 0;
     }
 }
