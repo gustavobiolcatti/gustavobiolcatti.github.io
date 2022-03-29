@@ -17,8 +17,8 @@
     --borda-foto: #007eff;
     --borda-link: #fefffb;
     --borda-projetos: #fefffb;
-    --borda-botao--hover: #007eff;
-
+    
+    --sombra-botao--hover: #007eff;
     --sombra-titulo: #007eff;
 
     --cor-titulo: #ffffff;
@@ -242,7 +242,7 @@ header{
 
 .footer__lightmode:hover, .footer__voltar-topo:hover{
     opacity: 1;
-    border: 1px solid var(--borda-botao--hover);
+    box-shadow: 2px 2px var(--sombra-botao--hover);
 }
 
 .footer__lightmode--ativo{
