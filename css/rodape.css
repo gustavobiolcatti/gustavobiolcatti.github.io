@@ -1,0 +1,51 @@
+.footer__lightmode{
+    position: fixed;
+    bottom: 90px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background: url("../img/light-mode.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 30px;
+    border: none;
+    border-radius: 50px;
+    opacity: 0.5;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.footer__voltar-topo{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #00000000;
+    background: url("../img/topo-dark.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 25px;
+    border-radius: 50px;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+.footer__lightmode:hover, .footer__voltar-topo:hover{
+    opacity: 1;
+    box-shadow: 2px 2px var(--sombra-botao--hover);
+}
+
+.footer__lightmode--ativo{
+    background: url("../img/dark-mode.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 30px;
+}
+
+.footer__voltar-topo--ativo {
+    background: url("../img/topo-light.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 25px;
+}
