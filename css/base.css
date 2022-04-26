@@ -4,7 +4,7 @@
     --fonte: "Montserrat", sans-serif;
 
     --background: linear-gradient(236.85deg, #041832 27.26%, #3468A7 96.03%);
-    --background-header: #333333;
+    --background-header: #3F403E;
     --background-icone: #fefffb;
     --background-conhecimento: #333333;
     --background-titulo: #000000;
@@ -15,7 +15,7 @@
     --background-degrade-3: #e4e6e1;
 
     --borda-foto: #007eff;
-    --borda-link: #fefffb;
+    --borda-link: var(--cor-link);
     --borda-projetos: #fefffb;
     
     --sombra-botao--hover: #007eff;
@@ -37,13 +37,14 @@
 
 .light-mode{
     --background: #cdcdcd;
-    --background-header: #4d4d4d;
+    --background-header: #fefffb;
     --background-conhecimento: #e1e1e1;
     --background-titulo: #3F403E;
 
-    --borda-link: #fefffb;
     --borda-projetos: #000000;
     
+    --cor-link: #3F403E;
+    --cor-link--hover: #fefffb;
     --cor-subtitulo: #3F403E;
     --cor-texto-padrao: #3F403E;
     --cor-strong: #3F403E;

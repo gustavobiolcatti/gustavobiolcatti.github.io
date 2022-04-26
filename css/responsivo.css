@@ -1,12 +1,19 @@
 @media screen and (min-width: 768px){
+    header{
+        display: block;
+        top: 0;
+        box-shadow: 0 0 30px -10px #000;
+    }
+
     nav{
         width: auto;
     }
 
     .cabecalho{
         max-width: 1160px;
-        padding: 0 2em;
+        padding: 2em 2em;
         margin: 0 auto;
+        box-shadow: none;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
@@ -22,9 +29,23 @@
         margin-right: 2.5em;
     }
 
+    .cabecalho__social-item{
+        background: none;
+    }
+
     .cabecalho__link{
         padding: 0;
         border: none;
+    }
+
+    .botao-menu{
+        display: none;
+    }
+
+    /*  */
+
+    #apresentacao{
+        padding-top: 15em;
     }
     
     /*  */

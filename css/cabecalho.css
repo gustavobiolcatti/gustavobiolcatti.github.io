@@ -1,8 +1,20 @@
 header{
-    padding: 2em 0;
+    position: fixed;
+    width: 100%;
+    top: -220px;
     font-size: 1rem;
-    background: var(--background-header);
-    box-shadow: 0 0 15px 5px #000;
+    transition: 0.4s;
+}
+
+.header--ativo{
+    top: 0;
+}
+
+.cabecalho{
+    padding: 2em 0;
+    backdrop-filter: blur(1em);
+    box-shadow: 0 0 30px -10px #000;
+    box-sizing: border-box;
 }
 
 .cabecalho__menu{
@@ -33,8 +45,22 @@ header{
     border-radius: 5px;
     font-size: 1.3em;
     transition: 0.25s;
+    background: var(--background-header);
 }
 
 .cabecalho__social-link:hover{
     box-shadow: 2px 2px var(--cor-link--hover);
+}
+
+.botao-menu{
+    padding: 2em 0 0 2em;
+    margin: 0;
+    border: none;
+    background: none;
+    opacity: 0.5;
+}
+
+.botao-menu i{
+    color: var(--cor-link);
+    font-size: 1.8em;
 }

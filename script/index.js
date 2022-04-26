@@ -7,3 +7,11 @@ botaoLightmode.addEventListener("click", () => {
     botaoVoltarTopo.classList.toggle("footer__voltar-topo--ativo")
     html.classList.toggle("light-mode")
 })
+
+
+const botaoMenu = document.querySelector("#botao-menu")
+const menu = document.getElementById("menu")
+
+botaoMenu.addEventListener("click", () => {
+    menu.classList.toggle("header--ativo")
+})
