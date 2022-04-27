@@ -13,7 +13,7 @@ header{
 
 .cabecalho{
     padding: 2em 0;
-    backdrop-filter: blur(1em);
+    backdrop-filter: blur(1em) brightness(0.5);
     box-shadow: 0 0 30px -10px #000;
     box-sizing: border-box;
 }
@@ -46,7 +46,6 @@ header{
     border-radius: 5px;
     font-size: 1.3em;
     transition: 0.25s;
-    background: var(--background-header);
 }
 
 .cabecalho__social-link:hover{

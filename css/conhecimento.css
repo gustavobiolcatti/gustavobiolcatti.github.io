@@ -14,7 +14,7 @@
 
 .conhecimento__item li{
     padding-bottom: 4em;
-    border-bottom: 1px solid  var(--borda-conhecimento-item);
+    border-bottom: 1px dotted var(--borda-conhecimento-item);
 }
 
 .conhecimento__item li:last-child {

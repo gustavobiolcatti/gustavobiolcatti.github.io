@@ -2,6 +2,7 @@
     header{
         display: block;
         top: 0;
+        backdrop-filter: blur(1em) brightness(0.5);
         box-shadow: 0 0 30px -10px #000;
     }
 
@@ -13,6 +14,7 @@
         max-width: 1160px;
         padding: 2em 2em;
         margin: 0 auto;
+        backdrop-filter: none;
         box-shadow: none;
         flex-direction: row;
         justify-content: space-between;
