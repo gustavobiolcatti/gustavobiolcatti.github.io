@@ -60,7 +60,3 @@
 .projetos__previa-links a{
     color: var(--cor-link-projeto);
 }
-
-.projetos__previa-links a:hover{
-    text-shadow: 2px 2px var(--cor-link-projeto--hover);
-}
