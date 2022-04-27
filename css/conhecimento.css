@@ -12,6 +12,16 @@
     margin-top: 0;
 }
 
+.conhecimento__item li{
+    padding-bottom: 4em;
+    border-bottom: 1px solid  var(--borda-conhecimento-item);
+}
+
+.conhecimento__item li:last-child {
+    padding: 0;
+    border: none;
+}
+
 .conhecimento__item .titulo{
     width: 100%;
     padding-left: 0;
@@ -21,5 +31,5 @@
 
 .conhecimento__item .subtitulo{
     color: var(--cor-conhecimento-subtitulo);
-    margin: 2em 0 .7em;
+    margin: 2em 0 1em;
 }

@@ -15,6 +15,7 @@
     --background-degrade-3: #e4e6e1;
 
     --borda-foto: #007eff;
+    --borda-conhecimento-item: #e4e6e19d;
     --borda-link: var(--cor-link);
     --borda-projetos: #fefffb;
     
@@ -41,6 +42,7 @@
     --background-conhecimento: #e1e1e1;
     --background-titulo: #3F403E;
 
+    --borda-conhecimento-item: #0000009d;
     --borda-projetos: #000000;
     
     --cor-link: #3F403E;
@@ -109,7 +111,7 @@ body {
     display: inline-block;
     margin-top: 3em;
     color: var(--cor-subtitulo);
-    border-bottom: 1px solid var(--cor-conhecimento-subtitulo);
+    /*border-bottom: 1px solid var(--cor-conhecimento-subtitulo);*/
     font-size: 1.9em;
     font-weight: bold;
 }
