@@ -13,7 +13,7 @@
 }
 
 .conhecimento__item li{
-    padding-bottom: 4em;
+    padding-bottom: 2.5em;
     border-bottom: 1px dotted var(--borda-conhecimento-item);
 }
 
@@ -31,5 +31,5 @@
 
 .conhecimento__item .subtitulo{
     color: var(--cor-conhecimento-subtitulo);
-    margin: 2em 0 1em;
+    margin: 1em 0 0;
 }

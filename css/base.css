@@ -110,7 +110,6 @@ body {
     display: inline-block;
     margin-top: 3em;
     color: var(--cor-subtitulo);
-    /*border-bottom: 1px solid var(--cor-conhecimento-subtitulo);*/
     font-size: 1.9em;
     font-weight: bold;
 }
